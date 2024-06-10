@@ -13,6 +13,6 @@
 // greeting = "Hello,"
 // target = "world!"
 // console.log(greeting+target)
-let greeting, target;
-greeting = "Hello, ";
-console.log(greeting + target);
+// let greeting: string, target: string;
+// greeting = "Hello, ";
+// console.log(greeting + target);

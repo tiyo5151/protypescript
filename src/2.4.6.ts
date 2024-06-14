@@ -35,12 +35,12 @@
 
 // console.log(`secretは${secret}です`);
 
-const secret = process.env.SECRET ?? "default";
+// const secret = process.env.SECRET ?? "default";
 
-if (secret === "") {
-    console.log("SECRETは空文字列です");
-} else {
-    console.log(`SECRETは${secret}です`);
-}
+// if (secret === "") {
+//     console.log("SECRETは空文字列です");
+// } else {
+//     console.log(`SECRETは${secret}です`);
+// }
 
-console.log(process.env.SECRET)
+// console.log(process.env.SECRET)

@@ -18,8 +18,14 @@
 // data.chicken=250;
 // data.弁当="foo";
 
-type Myobj = {[key:string]:number};
-const obj:Myobj = {foo:123};
+// type Myobj = {[key:string]:number};
+// const obj:Myobj = {foo:123};
 
-const num:number=obj.bar;
-console.log(num);
+// const num:number=obj.bar;
+// console.log(num);
+
+// const prpoName:string="foo";
+// const obj = {
+//     [prpoName]:123
+// };
+// console.log(obj.foo)

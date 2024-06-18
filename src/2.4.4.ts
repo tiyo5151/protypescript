@@ -12,26 +12,26 @@
 
 // console.log("apple" < "orange");
 
-import { createInterface } from "readline";
+// import { createInterface } from "readline";
 
-const rl = createInterface({
-    input:process.stdin,
-    output:process.stdout
-});
+// const rl = createInterface({
+//     input:process.stdin,
+//     output:process.stdout
+// });
 
-rl.question(`パスワードを入力してください：` ,(password) => {
-    if (password==='hogehoge') {
-        console.log("ようこそ！");
-    } else {
-        console.log('誰？');
-    }
-    rl.close()
-})
+// rl.question(`パスワードを入力してください：` ,(password) => {
+//     if (password==='hogehoge') {
+//         console.log("ようこそ！");
+//     } else {
+//         console.log('誰？');
+//     }
+//     rl.close()
+// })
 
-const str: any = "3";
+// const str: any = "3";
 
-// true が表示される（文字列が数値に変換されるので）
-console.log(str == 3); 
+// // true が表示される（文字列が数値に変換されるので）
+// console.log(str == 3); 
 
-// false が表示される（異なる型である文字列と数値を比較しているので）
-console.log(str === 3);
+// // false が表示される（異なる型である文字列と数値を比較しているので）
+// console.log(str === 3);

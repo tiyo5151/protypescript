@@ -39,19 +39,19 @@
 //     rl.close();
 // });
 
-import { createInterface } from "readline";
+// import { createInterface } from "readline";
 
-const rl = createInterface({
-    input:process.stdin,
-    output:process.stdout
-});
+// const rl = createInterface({
+//     input:process.stdin,
+//     output:process.stdout
+// });
 
-rl.question(`名前を入力してください：`,(input) => {
-    const name = input ? input : "名無し";
-    const user = {
-    name,
-    age: 20,
-    };
-    console.log(user.name,user.age);
-    rl.close();
-});
+// rl.question(`名前を入力してください：`,(input) => {
+//     const name = input ? input : "名無し";
+//     const user = {
+//     name,
+//     age: 20,
+//     };
+//     console.log(user.name,user.age);
+//     rl.close();
+// });

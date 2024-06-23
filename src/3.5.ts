@@ -11,6 +11,8 @@
 // arr[1] = 5400;
 // console.log(arr);
 
+import { table } from "console";
+
 // const arr:number[] = [1,10,100];
 // const arr2:string[] = [123,-456];
 
@@ -33,6 +35,38 @@
 // const arr:readonly number[] = [1,10,100];
 // arr.push(1000);
 
-const arr = [1,10,100];
-console.log(arr.includes(100));
-console.log(arr.includes(50));
+// const arr = [1,10,100];
+// console.log(arr.includes(100));
+// console.log(arr.includes(50));
+// console.log(arr.includes("foobar"))
+
+// const arr = [1,10,100];
+// console.log(arr.length);
+// arr.push(1000);
+// console.log(arr.length);
+
+// const arr = [1,10,100];
+
+// for (const elm of arr) {
+//     console.log(elm);
+// }
+
+// for (let elm of arr) {
+//     elm *= 10;
+//     console.log(elm);
+// }
+
+// let tuple:[string,number] = ["foo",0];
+// tuple = ["aiueo",-555];
+
+// const str = tuple[0];
+// const num = tuple[1];
+// const nothing = tuple[2];
+
+// type User = [name:string,age:number];
+// const uhyo:User = ["uhyo",26];
+// console.log(uhyo[1]);
+
+// const arr = [1, 10, 100];
+// const num: number = arr[100];
+// console.log(num);

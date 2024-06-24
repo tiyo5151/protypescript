@@ -48,8 +48,18 @@
 // const result = "Hello,abbbbbbc world! abc".match(/a(b+)c/g);
 // console.log(result);
 
-const map:Map<string,number> = new Map();
-map.set("foo",1234)
+// const map:Map<string,number> = new Map();
+// map.set("foo",1234)
 
-console.log(map.get("foo"));
-console.log(map.get("bar"));
+// console.log(map.get("foo"));
+// console.log(map.get("bar"));
+
+// const str = "Hello,world!"
+// console.log(str.length);
+
+// let val: {} = 123;
+// val = "foobar";
+// val = { num: 1234 };
+// // val = null;
+// // val = undefined;
+// console.log(val);

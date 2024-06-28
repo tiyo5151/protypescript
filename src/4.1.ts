@@ -95,24 +95,34 @@
 // const uhyo:Human = {height:1.84,weight:72};
 // console.log(calcBMI(uhyo));
 
-type Human = {
-    height:number;
-    weight:number;
-};
-type ReturnObj = {
-    bmi:number
-}
+// type Human = {
+//     height:number;
+//     weight:number;
+// };
+// type ReturnObj = {
+//     bmi:number
+// }
 
-const calcBMIObject = ({
-    height,weight
-}:Human):ReturnObj => ({
-    bmi: weight /height**2
-});
+// const calcBMIObject = ({
+//     height,weight
+// }:Human):ReturnObj => ({
+//     bmi: weight /height**2
+// });
 
 // const calcBMIObject2 = ({
 //     height, weight
 //   }: Human): ReturnObj => {
 //     bmi: weight / height ** 2;
 //   };
+
+// const obj = {
+//     double(num:number):number {
+//         return num * 2;
+//     },
+//     double2:(num:number):number => num * 2,
+// };
+
+// console.log(obj.double(100));
+// console.log(obj.double2(-50));
 
 

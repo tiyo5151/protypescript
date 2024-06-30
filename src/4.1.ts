@@ -125,4 +125,24 @@
 // console.log(obj.double(100));
 // console.log(obj.double2(-50));
 
+// const sum = (...args:number[]):number => {
+//     let result= 0;
+//     for (const num of args) {
+//         result += num;
+//     }
+//     return result
+// };
 
+// const sum = (...args: number) => {
+//     let result= 0;
+//     for (const num of args) {
+//         result += num;
+//     }
+//     return result
+// };
+
+// console.log(sum(1,10,100));
+// console.log(sum(123,456));
+// console.log(sum());
+// console.log(sum(11,22,33,44));
+// console.log(sum(1,10,100,1000,10000,100000))
